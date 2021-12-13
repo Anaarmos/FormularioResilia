@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta content="text/html"; charset="UTF-8" http-equiv="content-type">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="icon" href="abelha4.png" type="image/png">
+    <link rel="stylesheet" href="formulario.css">
+
+    <title>Formulário Resilia</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulário Resilia</h1>
+        <img id="abelha" src="2.png" alt="">
+        &emsp;
+    </header>
+
+    <main>
+        <div class="caixa">
+            <h2>Queremos saber um pouco sobre você:</h2>
+
+            <form method="get" action="enviar.php">
+                <div class="alinhamento">
+                    <label class="perguntas" for="nome">Qual seu nome completo?&#160;</label>
+                        <input type="text" required id="nome">
+                    <br>
+                    <label class="perguntas" for="nascimento">Qual sua data de nascimento?</label>
+                        <input required type="date" id="data">
+                        <br>
+                        <br>
+                        <br>
+                    <label class="perguntas">Como você ficou sabendo sobre a gente?</label>
+                    <br>
+
+                    <div class="alinopcao">
+                            <input type="radio" name="LinkedIn">
+                        <label class="opcao" for="comosoube">LinkedIn</label>
+                            <input type="radio" name="Facebook">
+                        <label class="opcao" for="comosoube">Facebook</label>
+                            <input type="radio" name="Twitter">
+                        <label class="opcao" for="comosoube">Twitter</label>
+                            <input type="radio" name="Instagram">
+                        <label class="opcao" for="comosoube">Instagram</label>
+                            <input type="radio" name="indicacao">
+                        <label class="opcao" for="comosoube">Indicação</label>
+                            <input type="radio" name="Outro">
+                        <label class="opcao" for="comosoube">Outro</label>
+                            <input class="outro" type="text">
+                    </div>        
+
+                        <br>
+                    <label class="perguntas" for="motivo">Por que você gostaria de entrar para a Resilia?</label>
+                    <br>
+                        <textarea required name="motivo" id="motivo" maxlength="500" placeholder="Digite aqui..."></textarea>
+                </div>    
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <a href="formulario2.html"><img id="setaprox" src="Seta.png" alt="Seta para a próxima página"></a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta content="text/html"; charset="UTF-8" http-equiv="content-type">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="icon" href="abelha4.png" type="image/png">
+    <link rel="stylesheet" href="formulario.css">
+
+    <title>Formulário Resilia</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulário Resilia</h1>
+        <img id="abelha" src="2.png" alt="">
+    </header>
+
+    <main>
+        <div class="caixa">
+            <h2>Precisamos de alguns dados 
+                pessoais 
+                <br>
+                e de contato, tudo bem?</h2>
+
+            <form method="get" action="obrigado.html">
+                <div class="alinhamento">
+                    <label class="perguntas" for="cpf">Qual o número do seu CPF?</label>
+                        <input id="cpf" required type="text" size="11">
+                        <br>
+                    <label class="perguntas" for="email">Qual seu e-mail mais atual?</label>
+                        <input id="email" required type="email">
+                        <br>
+                    <label class="perguntas" for="contato">Qual seu telefone para contato?</label>
+                        <input id="tel" required type="tel" size="11">
+                        <br>
+
+                    <label id="whats">Este número pode ser usado para Whatsapp?</label>
+                    <br>
+                    <div class="alinopcoes">
+                            <input type="radio" name="Sim" id="Sim">
+                        <label class="opcao" for="sim">Sim</label>
+                            <input type="radio" name="nao" id="nao">
+                        <label class="opcao" for="nao">Não</label>
+                            <input class="outro" type="text" name="digite aqui" id="">
+                    </div>
+                
+
+                    <p id="termos">*Ao finalizar e enviar você concorda com nossos <a href="termos.html">Termos de Uso</a>.</p>
+                </div>
+        </div>
+
+            <a href="formulario.html"><img id="setavoltar" src="Setavoltar.png" alt="Seta para voltar para a ultima pagina"></a>
+
+            <a href="obrigado.html"><input id="finalizar" type="submit" value="Finalizar e Enviar"></a>
+            </form>
+    </main>
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,205 @@
+header {
+    background: black;
+    text-align: center;
+}
+
+#abelha {
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+#abelha, h1 {
+    display: inline-block;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(fundo.png);
+    background-size: 101%;
+}
+
+h1 {
+    color: #ffd000;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    vertical-align: top;
+}
+.caixa {
+    border: black;
+    border-style:solid;
+    border-width: 5px;
+    margin-top: 30px;
+    margin-left: 349px;
+    margin-right: 340px;
+    padding-right: 10px;
+    border-radius: 20px;
+    width: 800px;
+    height: 450px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    padding-top: 25px;
+}
+
+.alinhamento {
+    width: 700px;
+    height: 320px;
+    position:relative;
+    margin: 25px auto;
+    text-align:left;
+    padding-left: 46px;
+    position: relative;
+}
+
+.perguntas {
+    font-size: 22px;
+}
+
+#nome {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 20px;
+    border-width:thin;
+    border-color: black;
+    margin-left: 10%;
+    width: 312px;
+}
+
+#data {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 20px;
+    border-width:thin;
+    border-color: black;
+    margin-left: 37px;
+    width: 312px;
+    margin-top: 30px;
+}
+
+#cpf {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 20px;
+    border-width:thin;
+    border-color: black;
+    margin-left: 60px;
+    width: 301px;
+    margin-top: 30px;
+}
+
+#email {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 20px;
+    border-width:thin;
+    border-color: black;
+    margin-left: 67px;
+    width: 302px;
+    margin-top: 30px;
+}
+
+#tel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 20px;
+    border-width:thin;
+    border-color: black;
+    margin-left: 27px;
+    width: 301px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#whats {
+    font-size: 22px;
+    
+}
+
+.alinopcao {
+    margin-top: 10px;
+}
+
+.opcao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-right: 6px;
+    margin-left: 3px;
+}
+
+.outro {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    border-width: thin;
+    border-color: black;
+    width: 12%;
+    margin-top: 10px;
+}
+
+#motivo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 630px;
+    height: 105px;
+    line-height: 25px;
+    border-radius: 20px;
+    border-width:medium;
+    border-color: black;
+    margin-top: 15px;
+}
+
+#termos {
+    margin-top: 40px;
+    margin-right: 46px;
+    text-align: end;
+}
+
+#setaprox {
+    width: 200px;
+    float: right;
+}
+
+#setavoltar {
+    width: 200px;
+}
+
+#finalizar {
+    float: right;
+    background: black;
+    vertical-align: middle;
+    color: #ffd000;
+    border-style: outset;
+    border-color: black;
+    height: 39px;
+    width: 200px;
+    font: bold 20px Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    margin-top: 38px;
+    margin-right: 80px;
+}
+
+#finalizar:hover {
+    font-size: 21px;
+}
+
+#setavoltar, #finalizar {
+    display: inline-block;
+}
